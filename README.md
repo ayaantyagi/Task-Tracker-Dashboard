@@ -29,6 +29,65 @@ Authentication: Django's built-in User  model with Groups for roles
 Forms/Validation: Django ModelForms with Bootstrap styling                                                           
 Dependencies: Minimal—only Django (see requirements.txt)                                                          
 Project Structure                                                  
-The repository is organized as a standard Django project:                                    
+The repository is organized as a standard Django project:  
 
+ # Project Structure
+task_tracker_dashboard/                            
+├── manage.py                                                   
+├── requirements.txt                                                   
+├── db.sqlite3                (generated after migrations)                                              
+├── task_tracker/             (main project folder)                                  
+│   ├── __init__.py                   
+│   ├── settings.py                                      
+│   ├── urls.py                                    
+│   ├── wsgi.py                                         
+│   └── asgi.py               (optional, not used here)                
+├── tasks/   (Django app)                                 
+│   ├── __init__.py                                      
+│   ├── admin.py                                                 
+│   ├── apps.py                                                        
+│   ├── migrations/                                                          
+│   │   ├── __init__.py                                                     
+│   │   └── 0001_initial.py    (generated; I'll provide a sample)                                             
+│   ├── models.py                                       
+│   ├── tests.py                                                  
+│   ├── urls.py                                                             
+│   └── views.py                                                             
+└── templates/         (Django templates folder)                                  
+    ├── base.html                                           
+    ├── registration/                                    
+    │   └── login.html                                       
+    ├── tasks/                                              
+    │   ├── dashboard.html                                         
+    │   ├── task_list.html                                               
+    │   ├── task_form.html                                           
+    │   └── task_detail.html                                                   
+└── static/  (optional; Bootstrap via CDN, but you can add if needed)            
 
+# File Contents
+1. 'requirements.txt'             
+    Django==4.2.7                       
+
+2. 'manage.py'                          
+     #!/usr/bin/env python                                    
+ """Django's command-line utility for administrative tasks."""                                    
+ import os                                 
+ import sys
+                                                                 
+ def main():                                      
+     """Run administrative tasks."""                                           
+     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'task_tracker.settings')                                     
+     try:                                                
+         from django.core.management import execute_from_command_line                                     
+     except ImportError as exc:                                             
+         raise ImportError(                                               
+             "Couldn't import Django. Are you sure it's installed and "                                                 
+             "available on your PYTHONPATH environment variable? Did you "                                                     
+             "forget to activate a virtual environment?"                                              
+         ) from exc                                                      
+     execute_from_command_line(sys.argv)                                                                   
+            
+                                    
+ if __name__ == '__main__':                                     
+     main()                                                           
+   
