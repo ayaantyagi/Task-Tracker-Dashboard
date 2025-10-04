@@ -5,7 +5,6 @@ Task Tracker Dashboard is a lightweight, full-stack web application built with D
 This project emphasizes usability with a responsive Bootstrap frontend, secure backend logic via Django's built-in authentication, and a clean separation of concerns. It's designed for teams or individuals tracking personal/professional tasks, with features like priority levels, status tracking, and user assignments.
 
 
-
 ## Key Features
 Role-Based Authentication:                                     
 Two roles: "Admin" (full access to all tasks and users) and "User " (limited to own tasks).                                
