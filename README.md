@@ -38,7 +38,7 @@ task_tracker_dashboard/
 ├── requirements.txt                                                   
 ├── db.sqlite3                (generated after migrations)                                              
 ├── task_tracker/             (main project folder)                                  
-│   ├── __init__.py                   
+│   ├── __init__.py                    
 │   ├── settings.py                                      
 │   ├── urls.py                                    
 │   ├── wsgi.py                                         
