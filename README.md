@@ -17,7 +17,7 @@ Update or delete tasks with permission checks (only creator or Admin).
 Task details view for inspection.           
   
 Search and Filtering: Admin interface includes search by title/description and filters by status/priority/date.                                        
-Responsive UI: Bootstrap 5 for mobile-friendly design, including navigation, forms, tables, and alerts.                                        
+Responsive UI: Bootstrap 5 for mobile-friendly design, including navigation, forms, tables, and alerts.                                         
 Security: CSRF protection, permission decorators, and hashed passwords out-of-the-box.                                                  
 Lightweight Database: SQLite—no setup for external DBs; stores users, tasks, and groups in a single db.sqlite3 file.                                           
 Extensibility: Easy to add features like email notifications, file attachments, or switch to PostgreSQL/MySQL.                                         
