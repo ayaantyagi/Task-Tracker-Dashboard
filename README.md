@@ -26,7 +26,7 @@ Extensibility: Easy to add features like email notifications, file attachments, 
 ## Backend: Django 4.2.7 (Python 3.8+)                                   
 Database: SQLite 3 (default; file-based, no server required)                                          
 Frontend: HTML/CSS/JS with Bootstrap 5 (via CDN for simplicity; no build tools needed)                                                     
-Authentication: Django's built-in User  model with Groups for roles                                               
+Authentication: Django's built-in User  model with Groups for roles                                                
 Forms/Validation: Django ModelForms with Bootstrap styling                                                           
 Dependencies: Minimal—only Django (see requirements.txt)                                                          
 Project Structure                                                  
