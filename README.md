@@ -1,9 +1,9 @@
-# Task Tracker Dashboard
+ # Task Tracker Dashboard
 ## Project Overview
 Task Tracker Dashboard is a lightweight, full-stack web application built with Django for managing tasks in a collaborative environment. It supports role-based authentication, allowing users to create, read, update, and delete (CRUD) tasks while respecting permissions (e.g., Admins can manage all tasks, while regular Users can only handle their own). The app uses SQLite as a database for simple, file-based storage—ideal for development, prototyping, or small-scale deployment without needing a full database server.
 
 This project emphasizes usability with a responsive Bootstrap frontend, secure backend logic via Django's built-in authentication, and a clean separation of concerns. It's designed for teams or individuals tracking personal/professional tasks, with features like priority levels, status tracking, and user assignments.
-
+ 
 
 ## Key Features
 Role-Based Authentication:                                     
