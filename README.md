@@ -28,7 +28,7 @@ Database: SQLite 3 (default; file-based, no server required)
 Frontend: HTML/CSS/JS with Bootstrap 5 (via CDN for simplicity; no build tools needed)                                                     
 Authentication: Django's built-in User  model with Groups for roles                                                
 Forms/Validation: Django ModelForms with Bootstrap styling                                                           
-Dependencies: Minimal—only Django (see requirements.txt)                                                          
+Dependencies: Minimal—only Django (see requirements.txt)                                                           
 Project Structure                                                  
 The repository is organized as a standard Django project:  
 
