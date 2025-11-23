@@ -47,7 +47,7 @@ task_tracker_dashboard/
 │   ├── __init__.py                                      
 │   ├── admin.py                                                 
 │   ├── apps.py                                                        
-│   ├── migrations/                                                          
+│   ├── migrations/                                                           
 │   │   ├── __init__.py                                                     
 │   │   └── 0001_initial.py    (generated; I'll provide a sample)                                             
 │   ├── models.py                                       
