@@ -32,7 +32,7 @@ Dependencies: Minimal—only Django (see requirements.txt)
 Project Structure                                                  
 The repository is organized as a standard Django project:  
 
- # Project Structure 
+ # Project Structure  
 task_tracker_dashboard/                            
 ├── manage.py                                                   
 ├── requirements.txt                                                   
