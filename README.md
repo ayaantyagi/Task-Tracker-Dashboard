@@ -174,7 +174,7 @@ Tests: python manage.py test tasks (expand tests.py as needed).
 
 # Deployment (Optional):                                
                                                                                                  
-For production: Set DEBUG=False, change SECRET_KEY, use PostgreSQL (update settings.py DATABASES).            
+For production: Set DEBUG=False, change SECRET_KEY, use PostgreSQL (update settings.py DATABASES).             
 Host on Heroku/Vercel: Add Procfile (web: gunicorn task_tracker.wsgi), push to Git.                        
 Static files: python manage.py collectstatic (if adding custom CSS/JS).  
 
