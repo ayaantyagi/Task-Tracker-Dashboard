@@ -9,7 +9,7 @@ This project emphasizes usability with a responsive Bootstrap frontend, secure b
 Role-Based Authentication:                                     
 Two roles: "Admin" (full access to all tasks and users) and "User " (limited to own tasks).                                  
 Built-in login/logout using Django's auth system. No external libraries needed.                                    
-## Task Management:                            
+## Task Management:                             
 Create tasks with title, description, priority (Low/Medium/High), and status (Pending/In Progress/Completed).                             
 Assign tasks to users (Admins can assign to anyone; Users assign to themselves).                              
 View dashboard with filtered task lists (all for Admins, personal for Users).                                       
@@ -66,7 +66,7 @@ task_tracker_dashboard/
 └── static/  (optional; Bootstrap via CDN, but you can add if needed)            
 
 Database Details (Tables and Schema)
-The app uses Django's ORM to define models, which generate tables in SQLite. After running migrations, the key tables are:                                
+The app uses Django's ORM to define models, which generate tables in SQLite. After running migrations, the key tables are:                                 
 
 auth_user (Built-in Django table):                                                
 
