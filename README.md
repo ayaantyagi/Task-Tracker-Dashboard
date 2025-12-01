@@ -36,7 +36,7 @@ The repository is organized as a standard Django project:
 task_tracker_dashboard/                            
 ├── manage.py                                                   
 ├── requirements.txt                                                   
-├── db.sqlite3                (generated after migrations)                                              
+├── db.sqlite3                (generated after migrations)                                               
 ├── task_tracker/             (main project folder)                                  
 │   ├── __init__.py                    
 │   ├── settings.py                                      
