@@ -157,7 +157,7 @@ Access Django Admin: python manage.py runserver → Visit http://127.0.0.1:8000/
 Login with superuser.                                                                                                        
 Create Groups: Add "Admin" and "User " under "Groups".                                                                                 
 Create Users: Add regular users under "Users", then assign to groups (e.g., superuser to "Admin").
-
+ 
 # Run the Server:                                                            
                          
 python manage.py runserver.                              
