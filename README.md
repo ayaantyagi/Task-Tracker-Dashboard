@@ -7,7 +7,7 @@ This project emphasizes usability with a responsive Bootstrap frontend, secure b
 
 ## Key Features
 Role-Based Authentication:                                     
-Two roles: "Admin" (full access to all tasks and users) and "User " (limited to own tasks).                                   
+Two roles: "Admin" (full access to all tasks and users) and "User " (limited to own tasks).                                    
 Built-in login/logout using Django's auth system. No external libraries needed.                                     
 ## Task Management:                             
 Create tasks with title, description, priority (Low/Medium/High), and status (Pending/In Progress/Completed).                              
