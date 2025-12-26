@@ -43,7 +43,7 @@ task_tracker_dashboard/
 │   ├── urls.py                                    
 │   ├── wsgi.py                                         
 │   └── asgi.py               (optional, not used here)                 
-├── tasks/   (Django app)                                 
+├── tasks/   (Django app)                                  
 │   ├── __init__.py                                      
 │   ├── admin.py                                                 
 │   ├── apps.py                                                        
