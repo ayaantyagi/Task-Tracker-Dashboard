@@ -69,7 +69,7 @@ Database Details (Tables and Schema)
 The app uses Django's ORM to define models, which generate tables in SQLite. After running migrations, the key tables are:                                 
 
 auth_user (Built-in Django table):                                                
-
+ 
 Stores user accounts: id, username, email, password (hashed), first_name, last_name, is_staff, is_active, date_joined.                                                                         
 Example: Admins and Users are standard Django users.                                                                                                
 auth_group (Built-in Django table for roles):                                                                                                                      
