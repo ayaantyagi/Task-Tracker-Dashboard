@@ -21,7 +21,7 @@ Responsive UI: Bootstrap 5 for mobile-friendly design, including navigation, for
 Security: CSRF protection, permission decorators, and hashed passwords out-of-the-box.                                                  
 Lightweight Database: SQLite—no setup for external DBs; stores users, tasks, and groups in a single db.sqlite3 file.                                           
 Extensibility: Easy to add features like email notifications, file attachments, or switch to PostgreSQL/MySQL.                                         
-
+ 
 # Tech Stack
 ## Backend: Django 4.2.7 (Python 3.8+)                                   
 Database: SQLite 3 (default; file-based, no server required)                                          
